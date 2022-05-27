@@ -10,6 +10,7 @@ If you want to try by yourself, it's easy:
 2. Run the ipnyb file using Jupyter Notebook.
 3. Run all of the program sequentially.
 
-Also, I added the other method, the popularity-based model. How to run it? same as above. 
+Also, I added the other method, the popularity-based model. How to run it? same as above.
+Also, there is the one using Tensorflow Recommenders. How to run it? same as above.
 
 For further information, ask me by WA. 
