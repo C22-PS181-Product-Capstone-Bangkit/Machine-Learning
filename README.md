@@ -23,6 +23,7 @@ TODO:
  - [ ] Test the scripts
  - [ ] Train the model
  - [ ] Create a deployment script (in tfjs or tfx or pure python)
+ - [ ] Add the genres filtering
 
 
  ## Model Change Log
