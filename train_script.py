@@ -19,7 +19,6 @@ decoder_layers = [10,15]
 model = CollaborativeFiltering(encoder_layers=encoder_layers,
                                decoder_layers=decoder_layers,
                                latent_space_size=latent_space)
-
 # defining loss function (MRMSE)
 from tensorflow.keras import backend as KB
 def m_rmse(gt, pred):
@@ -32,6 +31,7 @@ def m_rmse(gt, pred):
 from tensorflow.keras.optimizers import SGD
 model.compile(optimizer=SGD(learning_rate=0.001,momentum=0.9),loss=m_rmse,metrics=[m_rmse])
 print(model.summary())
+exit()
 
 # train the model
 
