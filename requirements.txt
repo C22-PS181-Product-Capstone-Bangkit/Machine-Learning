@@ -1,5 +1,6 @@
 absl-py==1.0.0
 Flask #@ file:///opt/conda/conda-bld/flask_1648041541647/work
+gunicorn==20.1.0
 h5py==2.10.0
 jsonschema==2.6.0
 jupyter==1.0.0
