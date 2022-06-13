@@ -1,30 +1,15 @@
 # Machine-Learning
 
 Helo guys! 
-FINALLY!!! I succeed to make a simple recommendation system using collaborative filtering! 
-But I think I still use the old version of Tensorflow. We can work on it later. 
+FINALLY!!! we succeed to make a recommendation system using collaborative filtering!  
 
-I used a different dataset. A dataset that consists of userID, placeID, and ratings (I only used the total_rating).
+The dataset (final_ratings_new_ver.csv) consists of userID, placeID, and ratings.
 If you want to try by yourself, it's easy:
-1. Download the ipnyb file and data folder.
+1. Download the ipynb file (New Ver.ipynb) and the data or just simply download all from Main Dataset folder.
 2. Run the ipnyb file using Jupyter Notebook.
 3. Run all of the program sequentially.
 
-Also, I added the other method, the popularity-based model. How to run it? same as above.
-Also, there is the one using Tensorflow Recommenders. How to run it? same as above.
-
-For further information, ask me by WA. 
-
-
-TODO:
- - [x] Create the autoencoder collaborative filtering tf model
- - [x] Create the data preprocessing functions
- - [x] Create a training script
- - [ ] Test the scripts
- - [ ] Train the model
- - [ ] Create a deployment script (in tfjs or tfx or pure python)
- - [ ] Add the genres filtering
-
+To deploy the model : we can use server.py file, requirements.txt, and Procfile
 
  ## Model Change Log
  - converted the model to use dense layers instead of manualy doing matrix multiplication
